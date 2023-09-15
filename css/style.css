@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: white;
+    color: #0b0958;
+    background-color: white; 
+}
+.main-header {
+    width: 1030px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    margin-bottom: 40px;
+}
+
+.main-nav {
+display: flex;
+}
+
+.logo {
+margin-right: auto;
+}
+
+.site-navigation {
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+    list-style: none;
+    width: 500px;
+}
+
+.site-navigation-item a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.signin {
+    width: 32px;
+}
+
+main {
+    width: 1030px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.object{
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.about-team-second {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 250px;
+}
+
+.article-content {
+    width: 320px;
+}
+
+.about-team-third {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.article-img-1 {
+    margin-right: auto;
+    height: 323px;
+    
+}
+
+.article-content-1 {
+    width: 330px;
+
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 40px;
+}
+
+.footer-second {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 175px;
+    margin-right: 60px;
+}
+
+.footer-logo a {
+    color: #0b0958;
+    text-decoration: none;
+}
+
+.footer-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-navigation-item {
+    list-style: none;
+    width: 130px;
+}
+
+.footer-navigation-item a {
+    color: #0b0958;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.number {
+    color: #0b0958;
+    text-decoration: none;
+}
+
+.mail {
+    color: #0b0958;
+    text-decoration: none;
+}
+
+.Contacts h2 {
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-team-third h2 {
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.article-content h2 {
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.children {
+    width: 550px;
+}
+
+.main-header a {
+    color: #0b0958;
+}
