@@ -8,26 +8,30 @@ body {
     background-color: white; 
 }
 .main-header {
-    width: 1030px;
+    width: 1170px;
+    height:108px;
     margin: 0 auto;
     padding: 20px 50px;
-    margin-bottom: 40px;
+    
+}
+
+.main-main {
+    width: 1170px;
 }
 
 .main-nav {
-display: flex;
+    display: flex;
 }
 
 .logo {
 margin-right: auto;
 }
 
-.site-navigation {
-    padding: 0;
-    margin: 0;
-    margin-right: 40px;
-    list-style: none;
-    width: 500px;
+.site-navigation-item {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    width: 700px;
 }
 
 .site-navigation-item a{
@@ -37,7 +41,9 @@ margin-right: auto;
     
 }
 .signin {
-    width: 32px;
+display: flex;
+align-self:center;
+margin-right: 10px;
 }
 
 main {
@@ -48,11 +54,14 @@ main {
 
 .object{
     font-style: italic;
+    font-family: Roboto;
     text-transform: uppercase;
     margin-bottom: 30px;
+    padding-left: 50px;
     line-height: 50px;
     font-size: 35px;
     font-weight: normal;
+    color: #163152;
 }
 
 .about-team-second {
@@ -82,6 +91,14 @@ main {
     flex-direction: row-reverse;
     width: 1030px;
     margin: 0 auto;
+}
+
+.socials {
+display:flex;
+}
+
+.socials img {
+    margin-right: 15px;
 }
 
 .article-img-1 {
@@ -128,16 +145,17 @@ h2 {
 
 .footer-navigation {
     list-style: none;
-    padding: 0;
-    margin: 0;
+
 }
 
 .footer-navigation-item {
     list-style: none;
-    width: 130px;
+    width: 150px;
+    align-items: center;
 }
 
 .footer-navigation-item a {
+    
     color: #0b0958;
     text-decoration: none;
     font-size: 13px;
@@ -198,4 +216,114 @@ h2 {
 
 .main-header a {
     color: #0b0958;
+}
+
+.object-news {
+display:flex ;
+justify-content: center;
+margin-bottom: 50px;
+text-decoration: underline;
+text-decoration-color: #00c6bd;
+text-decoration-thickness: 2px;
+text-underline-offset: 15px;
+text-underline-position: under;
+}
+
+.object-img {
+display:flex ;
+justify-content: center;
+margin-bottom: 50px;
+text-decoration: underline;
+text-decoration-color: #00c6bd;
+text-decoration-thickness: 2px;
+text-underline-offset: 15px;
+text-underline-position: under;
+}
+
+.News {
+    width: 780px;
+    margin-bottom: 60px;
+    margin-left: 185px;
+}
+
+.winner {
+    color: #8693A4;
+    margin-top:5px;
+    margin-bottom: 30px;
+}
+
+.team-line {
+padding-left: 20px;
+border-left: solid 2px #00c6bd;
+}
+
+.Avtor {
+flex-shrink: 0;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-two {
+margin-right: 550px;
+color: #163152;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+}
+
+.info-about-man {
+color: #8693A4;
+}
+
+.info-about-cap {
+color: #163152;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+.players-winner-list {
+padding: 0px;
+}
+
+ul {
+    padding: 0px 20px;
+}
+
+.main-images {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a:hover {
+    color: rgba(22, 49, 82, 0.50);
+}
+
+a:visited {
+    color: rgba(22, 49, 82, 0.30);
+}
+
+.img-list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.preview-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 170px;
+}
+
+.preview-list li {
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
